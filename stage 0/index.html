@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davickyz || Profile Card</title>
+  <link rel="shortcut icon" href="images/my profile.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <div class="part-one">
+      <!-- profile img -->
+      <img src="images/my profile.jpg" alt="" data-testid="profilePicture">  
+
+      <div class="name-section">
+        <!-- full name -->
+        <h2 data-testid="fullName">Alabi Victor O.</h2>
+        <!-- age -->
+        <p>20yrs</p>
+      </div>
+
+      <div class="location-time">
+        <!-- Location -->
+         <p data-testid="currentLocation">Lagos, Nigeria.</p>
+        <!-- time -->
+        <p class="js-time" data-testid="currentTimeUTC">UTC time</p>
+      </div>
+
+       <!-- Job Description -->
+      <h3 class="job-description" data-testid="jobTitle">
+        Frontend Developer, UI/UX Designer, Product Manager, Video Editor.
+      </h3>
+    </div>
+    
+    <div class="part-two">
+      <!-- BIO -->
+       <div class="bio" data-testid="shortBio">
+          <span>My Short Bio</span>
+          <hr>
+            I'm a Computer Science student at Ajayi Crowther University, Oyo, passionate about technology and creativity. As a frontend developer, I love building interactive web experiences. Beyond coding, I enjoy art, music, pets, and basketball. I'm always exploring new hobbies and believe in continuous learning to refine my skills and take on new challenges.
+          <hr>
+        </div>
+      <div class="socials">
+        <span>Contact Details</span>
+        <hr>
+        <!-- mail -->
+         <p class="mail">Send me a mail <span data-testid="emailAddress">davickyz1610@gmail.com</span></p>
+        <!-- Social Lnks -->
+        <div data-testid="socialLinks">
+          <a href="https://x.com/davickyz" rel="noopener" target="_blank">
+            <img class="social-media-icon" src="images/twitter.svg" alt="">
+            <p>@Davickyz</p>
+          </a>
+          <a href="https://www.linkedin.com/in/alabi-victor-42185b285/" rel="noopener" target="_blank">
+            <img class="social-media-icon" src="images/linkedIn.svg" alt="">
+            <p>Alabi Victor</p>
+          </a>
+          <a href="https://github.com/Davickyz" rel="noopener" target="_blank">
+            <img class="social-media-icon" src="images/github.svg" alt="">
+            <p>@Davickyz</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
