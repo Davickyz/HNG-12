@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Guess Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <section class="card-component">
+      <h3>Guess the correct color!</h3>
+      <header>
+        <p data-testid="score">Wins: <span  id="score">0</span></p>
+        <!-- Main Color box-->
+         <div class="color-box" data-testid="colorBox"></div>
+         <button id="newGameButton" data-testid="newGameButton"> Reset Score</button>
+      </header>
+  
+      <p id="gameStatus" data-testid="gameStatus"></p>
+  
+      <div>
+        <!-- Grid for Guess box -->
+         <section>
+          <button class="solu-box" data-testid="colorOption"></button>
+          <button class="solu-box" data-testid="colorOption"></button>
+          <button class="solu-box" data-testid="colorOption"></button>
+          <button class="solu-box" data-testid="colorOption"></button>
+          <button class="solu-box" data-testid="colorOption"></button>
+          <button class="solu-box" data-testid="colorOption"></button>
+         </section>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
